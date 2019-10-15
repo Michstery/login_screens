@@ -15,18 +15,18 @@ const Header = () => {
             <Link to="/" componenet={Home}>
               <li>Home</li>
             </Link>
-            <Link to="/#my_anchor" componenet={Twos}>
+            <a href="/#my_anchor">
               <li>first-page</li>
-            </Link>
-            <Link to="/second" componenet={Second}>
+            </a>
+            <a href="/#my_anchor3" componenet={Second}>
               <li>second-page</li>
-            </Link>
-            <Link to="/three" componenet={Three}>
+            </a>
+            <a href="/#my_anchor2" componenet={Three}>
               <li>third-page</li>
-            </Link>
-            <Link to="/four" componenet={Four}>
+            </a>
+            <a href="/#my_anchor4" componenet={Four}>
               <li>fourth-page</li>
-            </Link>
+            </a>
           </ul>
         </nav>
       </header>

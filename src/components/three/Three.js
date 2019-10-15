@@ -3,7 +3,7 @@ import "./three.css";
 
 const Three = props => {
   return (
-    <div className="contain-1">
+    <div className="contain-1" id="my_anchor2">
       <h1 className="text-center mx-auto  ">
         {" "}
         <span>

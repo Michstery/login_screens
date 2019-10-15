@@ -3,7 +3,7 @@ import "./second.css";
 
 const Second = props => {
   return (
-    <div className="contain-3">
+    <div className="contain-3" id="my_anchor3">
       <div className="wrapper fadeInDown">
         <div className="fadeIn first">
           <img

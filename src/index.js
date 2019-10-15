@@ -11,18 +11,26 @@ import Four from "./components/four/Four";
 export default function App() {
   return (
     <div>
-      <Route path="/" exact component={Home} />
+      {/* <Route path="/" exact component={Home} />
       <Route path="/twos" exact component={Twos} />
       <Route path="/three" exact component={Three} />
       <Route path="/second" exact component={Second} />
-      <Route path="/four" exact component={Four} />
+      <Route path="/four" exact component={Four} /> */}
     </div>
   );
+
+  // $(document).on("scroll", function() {
+  //   if ($(document).scrollTop() > 86) {
+  //     $("#banner").addClass("shrink");
+  //   } else {
+  //     $("#banner").removeClass("shrink");
+  //   }
+  // });
 }
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <Home />
   </BrowserRouter>,
   document.querySelector("#root")
 );

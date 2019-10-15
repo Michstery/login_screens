@@ -3,7 +3,7 @@ import "./four.css";
 
 const Four = props => {
   return (
-    <div className="contain-4 " style={{ paddingTop: "40px" }}>
+    <div className="contain-4 " id="my_anchor4" style={{ paddingTop: "40px" }}>
       <div className="imgcontainer">
         <img
           src="https://image.flaticon.com/icons/svg/476/476863.svg"
